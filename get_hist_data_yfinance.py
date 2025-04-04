@@ -9,6 +9,7 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
+
 def get_hist_data(codes):
     df_dict = {}
     for code in codes:
